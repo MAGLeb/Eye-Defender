@@ -76,7 +76,7 @@ class RenderTimer:
 
 
 class ApplicationDesktop:
-    def __init__(self, gap_time: int = 60, action_time: int = 24):
+    def __init__(self, gap_time: float = 60, action_time: int = 24):
         """
         Vacation reminder app.
 
